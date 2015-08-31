@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741111631B93E4C300EC3731 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111621B93E4C300EC3731 /* MainViewController.m */; };
 		74387F8A1B90638A0028BBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387F891B90638A0028BBC5 /* main.m */; };
 		74387F8D1B90638A0028BBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387F8C1B90638A0028BBC5 /* AppDelegate.m */; };
-		74387F901B90638A0028BBC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387F8F1B90638A0028BBC5 /* ViewController.m */; };
 		74387F931B90638A0028BBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74387F911B90638A0028BBC5 /* Main.storyboard */; };
 		74387F951B90638A0028BBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74387F941B90638A0028BBC5 /* Images.xcassets */; };
 		74387F981B90638A0028BBC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74387F961B90638A0028BBC5 /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		741111611B93E4C300EC3731 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		741111621B93E4C300EC3731 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		74387F841B90638A0028BBC5 /* MSDTJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSDTJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74387F881B90638A0028BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74387F891B90638A0028BBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74387F8B1B90638A0028BBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74387F8C1B90638A0028BBC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74387F8E1B90638A0028BBC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74387F8F1B90638A0028BBC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74387F921B90638A0028BBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74387F941B90638A0028BBC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74387F971B90638A0028BBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				74387F8B1B90638A0028BBC5 /* AppDelegate.h */,
 				74387F8C1B90638A0028BBC5 /* AppDelegate.m */,
-				74387F8E1B90638A0028BBC5 /* ViewController.h */,
-				74387F8F1B90638A0028BBC5 /* ViewController.m */,
+				741111611B93E4C300EC3731 /* MainViewController.h */,
+				741111621B93E4C300EC3731 /* MainViewController.m */,
 				74387F911B90638A0028BBC5 /* Main.storyboard */,
 				74387F941B90638A0028BBC5 /* Images.xcassets */,
 				74387F961B90638A0028BBC5 /* LaunchScreen.xib */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74387F901B90638A0028BBC5 /* ViewController.m in Sources */,
 				74387F8D1B90638A0028BBC5 /* AppDelegate.m in Sources */,
 				74387F8A1B90638A0028BBC5 /* main.m in Sources */,
+				741111631B93E4C300EC3731 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +412,7 @@
 				74387FA91B90638A0028BBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74387FAA1B90638A0028BBC5 /* Build configuration list for PBXNativeTarget "MSDTJTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				74387FAC1B90638A0028BBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

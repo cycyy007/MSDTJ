@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37E669B91B9430CE00ACA36E /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E669B71B9430CE00ACA36E /* CollectionCell.m */; };
+		37E669BA1B9430CE00ACA36E /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E669B81B9430CE00ACA36E /* CollectionCell.xib */; };
 		741111631B93E4C300EC3731 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111621B93E4C300EC3731 /* MainViewController.m */; };
 		741111661B93EB5100EC3731 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111651B93EB5100EC3731 /* MyViewController.m */; };
 		74387F8A1B90638A0028BBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387F891B90638A0028BBC5 /* main.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37E669B61B9430CE00ACA36E /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionCell.h; path = View/CollectionCell.h; sourceTree = "<group>"; };
+		37E669B71B9430CE00ACA36E /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionCell.m; path = View/CollectionCell.m; sourceTree = "<group>"; };
+		37E669B81B9430CE00ACA36E /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectionCell.xib; path = View/CollectionCell.xib; sourceTree = "<group>"; };
 		741111611B93E4C300EC3731 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		741111621B93E4C300EC3731 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		741111641B93EB5100EC3731 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -63,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37E669BB1B9430EE00ACA36E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37E669B61B9430CE00ACA36E /* CollectionCell.h */,
+				37E669B71B9430CE00ACA36E /* CollectionCell.m */,
+				37E669B81B9430CE00ACA36E /* CollectionCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		74387F7B1B90638A0028BBC5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +99,7 @@
 		74387F861B90638A0028BBC5 /* MSDTJ */ = {
 			isa = PBXGroup;
 			children = (
+				37E669BB1B9430EE00ACA36E /* View */,
 				74387F8B1B90638A0028BBC5 /* AppDelegate.h */,
 				74387F8C1B90638A0028BBC5 /* AppDelegate.m */,
 				741111611B93E4C300EC3731 /* MainViewController.h */,
@@ -207,6 +223,7 @@
 				74387F931B90638A0028BBC5 /* Main.storyboard in Resources */,
 				74387F981B90638A0028BBC5 /* LaunchScreen.xib in Resources */,
 				74387F951B90638A0028BBC5 /* Images.xcassets in Resources */,
+				37E669BA1B9430CE00ACA36E /* CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74387F8D1B90638A0028BBC5 /* AppDelegate.m in Sources */,
+				37E669B91B9430CE00ACA36E /* CollectionCell.m in Sources */,
 				74387F8A1B90638A0028BBC5 /* main.m in Sources */,
 				741111661B93EB5100EC3731 /* MyViewController.m in Sources */,
 				741111631B93E4C300EC3731 /* MainViewController.m in Sources */,

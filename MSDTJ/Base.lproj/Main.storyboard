@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Hot-PD-fDQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Hot-PD-fDQ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--My View Controller-->
@@ -131,9 +132,44 @@
                     <view key="view" contentMode="scaleToFill" id="ATk-cG-9lb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QJt-iU-lSQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="l3u-nv-F3m">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="goodsCollectionCell" id="RyI-am-C9w">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="nkV-Xz-eyE" id="Koz-yq-hGt"/>
+                                    <outlet property="delegate" destination="nkV-Xz-eyE" id="9WX-Ve-ghX"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="leading" secondItem="ATk-cG-9lb" secondAttribute="leadingMargin" constant="-16" id="25k-aW-4ho"/>
+                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="bottom" secondItem="ATk-cG-9lb" secondAttribute="bottomMargin" id="aga-cb-OK8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QJt-iU-lSQ" secondAttribute="trailing" constant="-16" id="d43-C2-UMi"/>
+                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="top" secondItem="ATk-cG-9lb" secondAttribute="topMargin" id="ox5-52-dII"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="u8P-vm-Yih"/>
+                    <connections>
+                        <outlet property="collectionView" destination="QJt-iU-lSQ" id="PKl-9l-kcd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mYj-UM-XVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

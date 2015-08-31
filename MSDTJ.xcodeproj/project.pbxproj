@@ -32,6 +32,7 @@
 		74387F951B90638A0028BBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74387F941B90638A0028BBC5 /* Images.xcassets */; };
 		74387F981B90638A0028BBC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74387F961B90638A0028BBC5 /* LaunchScreen.xib */; };
 		74387FA41B90638A0028BBC5 /* MSDTJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387FA31B90638A0028BBC5 /* MSDTJTests.m */; };
+		745FB2CE1B945C8800C9AA13 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745FB2CD1B945C8800C9AA13 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		74387F9D1B90638A0028BBC5 /* MSDTJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDTJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74387FA21B90638A0028BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74387FA31B90638A0028BBC5 /* MSDTJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDTJTests.m; sourceTree = "<group>"; };
+		745FB2CC1B945C8800C9AA13 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		745FB2CD1B945C8800C9AA13 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,12 +151,14 @@
 				741111621B93E4C300EC3731 /* MainViewController.m */,
 				741111641B93EB5100EC3731 /* MyViewController.h */,
 				741111651B93EB5100EC3731 /* MyViewController.m */,
-				7411116D1B94407800EC3731 /* MainTabBarController.h */,
-				7411116E1B94407800EC3731 /* MainTabBarController.m */,
+				745FB2CC1B945C8800C9AA13 /* SettingViewController.h */,
+				745FB2CD1B945C8800C9AA13 /* SettingViewController.m */,
 				741111901B9442D100EC3731 /* LoginViewController.h */,
 				741111911B9442D100EC3731 /* LoginViewController.m */,
 				741111921B9442D100EC3731 /* RegistereViewController.h */,
 				741111931B9442D100EC3731 /* RegistereViewController.m */,
+				7411116D1B94407800EC3731 /* MainTabBarController.h */,
+				7411116E1B94407800EC3731 /* MainTabBarController.m */,
 				74387F911B90638A0028BBC5 /* Main.storyboard */,
 				741111731B94424600EC3731 /* icon */,
 				74387F941B90638A0028BBC5 /* Images.xcassets */,
@@ -310,6 +315,7 @@
 				74387F8A1B90638A0028BBC5 /* main.m in Sources */,
 				741111661B93EB5100EC3731 /* MyViewController.m in Sources */,
 				741111631B93E4C300EC3731 /* MainViewController.m in Sources */,
+				745FB2CE1B945C8800C9AA13 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,29 +1,23 @@
 //
-//  MainTabBarController.m
+//  SettingViewController.m
 //  MSDTJ
 //
 //  Created by chen on 15/8/31.
 //  Copyright (c) 2015年 Benfu. All rights reserved.
 //
 
-#import "MainTabBarController.h"
-#import "LoginViewController.h"
-@interface MainTabBarController ()
+#import "SettingViewController.h"
+
+@interface SettingViewController ()
 
 @end
 
-@implementation MainTabBarController
+@implementation SettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
-//-(void)viewDidAppear:(BOOL)animated{
-//    [super viewDidAppear:animated];
-//        LoginViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
-//        [self presentViewController:vc animated:YES completion:nil];
-//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

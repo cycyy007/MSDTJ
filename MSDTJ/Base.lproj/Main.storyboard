@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My View Controller-->
         <scene sceneID="ep3-Ku-dU3">
             <objects>
-                <viewController id="sna-5J-gwn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyViewController" id="sna-5J-gwn" customClass="MyViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jps-Ag-0xo"/>
                         <viewControllerLayoutGuide type="bottom" id="Dy3-7E-Obr"/>
@@ -15,9 +15,87 @@
                     <view key="view" contentMode="scaleToFill" id="fNZ-Z1-Ya4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="店名：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9l-bR-NoB">
+                                <rect key="frame" x="16" y="87" width="68" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l9o-zs-Ect">
+                                <rect key="frame" x="92" y="86" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="GO:" destination="sna-5J-gwn" eventType="editingDidEndOnExit" id="UU6-ka-bEa"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7GC-lD-06K">
+                                <rect key="frame" x="92" y="151" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="GO:" destination="sna-5J-gwn" eventType="editingDidEndOnExit" id="kYz-oB-hnP"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="地址：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re3-4M-zlS">
+                                <rect key="frame" x="16" y="220" width="68" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FgY-fe-nlV">
+                                <rect key="frame" x="92" y="219" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="GO:" destination="sna-5J-gwn" eventType="editingDidEndOnExit" id="Z5u-oc-emT"/>
+                                    <outlet property="delegate" destination="sna-5J-gwn" id="4FI-3f-9bE"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="电话：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMp-wx-okW">
+                                <rect key="frame" x="16" y="289" width="68" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g0D-2f-wM2">
+                                <rect key="frame" x="92" y="288" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="GO:" destination="sna-5J-gwn" eventType="editingDidEndOnExit" id="uze-gB-EPC"/>
+                                    <outlet property="delegate" destination="sna-5J-gwn" id="JxC-2J-krK"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j38-wS-LcZ">
+                                <rect key="frame" x="16" y="380" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="288" id="THp-Oe-nM3"/>
+                                    <constraint firstAttribute="height" constant="30" id="vtG-kC-3hg"/>
+                                </constraints>
+                                <state key="normal" title="确定">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="主打：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ik-cX-wZQ">
+                                <rect key="frame" x="16" y="152" width="68" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="j38-wS-LcZ" secondAttribute="centerX" id="6rS-Ue-nvC"/>
+                            <constraint firstItem="j38-wS-LcZ" firstAttribute="top" secondItem="fNZ-Z1-Ya4" secondAttribute="top" constant="380" id="h6H-tt-I8p"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QX1-Xi-kKW"/>
+                    <connections>
+                        <outlet property="certainbtn" destination="j38-wS-LcZ" id="9Hu-0C-hAt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eme-c1-eq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,11 +158,11 @@
             </objects>
             <point key="canvasLocation" x="646" y="30"/>
         </scene>
-        <!--Item 2-->
+        <!--我的-->
         <scene sceneID="cj6-YI-n7O">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p84-6N-hHR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="gmY-uD-9xq"/>
+                    <tabBarItem key="tabBarItem" title="我的" id="gmY-uD-9xq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GAK-ZQ-S4H">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

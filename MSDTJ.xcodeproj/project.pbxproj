@@ -11,12 +11,30 @@
 		37E669BA1B9430CE00ACA36E /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E669B81B9430CE00ACA36E /* CollectionCell.xib */; };
 		741111631B93E4C300EC3731 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111621B93E4C300EC3731 /* MainViewController.m */; };
 		741111661B93EB5100EC3731 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111651B93EB5100EC3731 /* MyViewController.m */; };
+		7411116F1B94407800EC3731 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411116E1B94407800EC3731 /* MainTabBarController.m */; };
+		741111821B94424600EC3731 /* deletebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111741B94424600EC3731 /* deletebutton.png */; };
+		741111831B94424600EC3731 /* forget-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111751B94424600EC3731 /* forget-head.png */; };
+		741111841B94424600EC3731 /* forgetpassword.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111761B94424600EC3731 /* forgetpassword.png */; };
+		741111851B94424600EC3731 /* login-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111771B94424600EC3731 /* login-head.png */; };
+		741111861B94424600EC3731 /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111781B94424600EC3731 /* loginbutton.png */; };
+		741111871B94424600EC3731 /* loginimage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 741111791B94424600EC3731 /* loginimage1.jpg */; };
+		741111881B94424600EC3731 /* loginimage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7411117A1B94424600EC3731 /* loginimage2.jpg */; };
+		741111891B94424600EC3731 /* loginimage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7411117B1B94424600EC3731 /* loginimage3.jpg */; };
+		7411118A1B94424600EC3731 /* logintextfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 7411117C1B94424600EC3731 /* logintextfield.png */; };
+		7411118B1B94424600EC3731 /* register-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 7411117D1B94424600EC3731 /* register-head.png */; };
+		7411118C1B94424600EC3731 /* registerbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7411117E1B94424600EC3731 /* registerbutton.png */; };
+		7411118D1B94424600EC3731 /* registerpustbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7411117F1B94424600EC3731 /* registerpustbutton.png */; };
+		7411118E1B94424600EC3731 /* registertextfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111801B94424600EC3731 /* registertextfield.png */; };
+		7411118F1B94424600EC3731 /* resetB.png in Resources */ = {isa = PBXBuildFile; fileRef = 741111811B94424600EC3731 /* resetB.png */; };
+		741111941B9442D100EC3731 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111911B9442D100EC3731 /* LoginViewController.m */; };
+		741111951B9442D100EC3731 /* RegistereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741111931B9442D100EC3731 /* RegistereViewController.m */; };
 		74387F8A1B90638A0028BBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387F891B90638A0028BBC5 /* main.m */; };
 		74387F8D1B90638A0028BBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387F8C1B90638A0028BBC5 /* AppDelegate.m */; };
 		74387F931B90638A0028BBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74387F911B90638A0028BBC5 /* Main.storyboard */; };
 		74387F951B90638A0028BBC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74387F941B90638A0028BBC5 /* Images.xcassets */; };
 		74387F981B90638A0028BBC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74387F961B90638A0028BBC5 /* LaunchScreen.xib */; };
 		74387FA41B90638A0028BBC5 /* MSDTJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74387FA31B90638A0028BBC5 /* MSDTJTests.m */; };
+		745FB2CE1B945C8800C9AA13 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745FB2CD1B945C8800C9AA13 /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +55,26 @@
 		741111621B93E4C300EC3731 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		741111641B93EB5100EC3731 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		741111651B93EB5100EC3731 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		7411116D1B94407800EC3731 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		7411116E1B94407800EC3731 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		741111741B94424600EC3731 /* deletebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletebutton.png; sourceTree = "<group>"; };
+		741111751B94424600EC3731 /* forget-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forget-head.png"; sourceTree = "<group>"; };
+		741111761B94424600EC3731 /* forgetpassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forgetpassword.png; sourceTree = "<group>"; };
+		741111771B94424600EC3731 /* login-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-head.png"; sourceTree = "<group>"; };
+		741111781B94424600EC3731 /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
+		741111791B94424600EC3731 /* loginimage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginimage1.jpg; sourceTree = "<group>"; };
+		7411117A1B94424600EC3731 /* loginimage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginimage2.jpg; sourceTree = "<group>"; };
+		7411117B1B94424600EC3731 /* loginimage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginimage3.jpg; sourceTree = "<group>"; };
+		7411117C1B94424600EC3731 /* logintextfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logintextfield.png; sourceTree = "<group>"; };
+		7411117D1B94424600EC3731 /* register-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register-head.png"; sourceTree = "<group>"; };
+		7411117E1B94424600EC3731 /* registerbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerbutton.png; sourceTree = "<group>"; };
+		7411117F1B94424600EC3731 /* registerpustbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerpustbutton.png; sourceTree = "<group>"; };
+		741111801B94424600EC3731 /* registertextfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registertextfield.png; sourceTree = "<group>"; };
+		741111811B94424600EC3731 /* resetB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetB.png; sourceTree = "<group>"; };
+		741111901B9442D100EC3731 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		741111911B9442D100EC3731 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		741111921B9442D100EC3731 /* RegistereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistereViewController.h; sourceTree = "<group>"; };
+		741111931B9442D100EC3731 /* RegistereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistereViewController.m; sourceTree = "<group>"; };
 		74387F841B90638A0028BBC5 /* MSDTJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSDTJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74387F881B90638A0028BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74387F891B90638A0028BBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +86,8 @@
 		74387F9D1B90638A0028BBC5 /* MSDTJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSDTJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74387FA21B90638A0028BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74387FA31B90638A0028BBC5 /* MSDTJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSDTJTests.m; sourceTree = "<group>"; };
+		745FB2CC1B945C8800C9AA13 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		745FB2CD1B945C8800C9AA13 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +146,16 @@
 				741111621B93E4C300EC3731 /* MainViewController.m */,
 				741111641B93EB5100EC3731 /* MyViewController.h */,
 				741111651B93EB5100EC3731 /* MyViewController.m */,
+				745FB2CC1B945C8800C9AA13 /* SettingViewController.h */,
+				745FB2CD1B945C8800C9AA13 /* SettingViewController.m */,
+				741111901B9442D100EC3731 /* LoginViewController.h */,
+				741111911B9442D100EC3731 /* LoginViewController.m */,
+				741111921B9442D100EC3731 /* RegistereViewController.h */,
+				741111931B9442D100EC3731 /* RegistereViewController.m */,
+				7411116D1B94407800EC3731 /* MainTabBarController.h */,
+				7411116E1B94407800EC3731 /* MainTabBarController.m */,
 				74387F911B90638A0028BBC5 /* Main.storyboard */,
+				741111731B94424600EC3731 /* icon */,
 				74387F941B90638A0028BBC5 /* Images.xcassets */,
 				74387F961B90638A0028BBC5 /* LaunchScreen.xib */,
 				74387F871B90638A0028BBC5 /* Supporting Files */,
@@ -221,7 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				74387F931B90638A0028BBC5 /* Main.storyboard in Resources */,
+				741111871B94424600EC3731 /* loginimage1.jpg in Resources */,
+				741111881B94424600EC3731 /* loginimage2.jpg in Resources */,
+				741111891B94424600EC3731 /* loginimage3.jpg in Resources */,
+				741111841B94424600EC3731 /* forgetpassword.png in Resources */,
 				74387F981B90638A0028BBC5 /* LaunchScreen.xib in Resources */,
+				7411118F1B94424600EC3731 /* resetB.png in Resources */,
+				7411118E1B94424600EC3731 /* registertextfield.png in Resources */,
+				7411118C1B94424600EC3731 /* registerbutton.png in Resources */,
+				741111831B94424600EC3731 /* forget-head.png in Resources */,
+				741111821B94424600EC3731 /* deletebutton.png in Resources */,
 				74387F951B90638A0028BBC5 /* Images.xcassets in Resources */,
 				37E669BA1B9430CE00ACA36E /* CollectionCell.xib in Resources */,
 			);
@@ -246,6 +304,7 @@
 				74387F8A1B90638A0028BBC5 /* main.m in Sources */,
 				741111661B93EB5100EC3731 /* MyViewController.m in Sources */,
 				741111631B93E4C300EC3731 /* MainViewController.m in Sources */,
+				745FB2CE1B945C8800C9AA13 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

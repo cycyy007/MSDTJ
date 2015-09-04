@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "MainCollectionViewCell.h"
 #import "DetailViewController.h"
+#import "AddGoodsViewController.h"
 #define DeviceWidth ([UIScreen mainScreen].bounds.size.width) //設備寬
 #define DeviceHeight ([UIScreen mainScreen].bounds.size.height) //設備高
 
@@ -57,4 +58,11 @@
     UIEdgeInsets top = {0,DeviceWidth/36.0,-49,DeviceWidth/36.0};
     return top;
 }
+- (IBAction)addgoods:(id)sender {
+    AddGoodsViewController *avc =[self.storyboard instantiateViewControllerWithIdentifier:@"AddGoodsViewController"];
+    [self.navigationController pushViewController:avc animated:YES];
+    
+    
+}
+
 @end

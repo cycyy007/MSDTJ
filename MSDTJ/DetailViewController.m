@@ -7,7 +7,7 @@
 //
 
 #import "DetailViewController.h"
-
+#import "SetGoodsViewController.h"
 @interface DetailViewController ()
 
 @end
@@ -25,6 +25,10 @@
 }
 - (IBAction)back:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
+}
+- (IBAction)set:(id)sender {
+    SetGoodsViewController *svc = [self.storyboard instantiateViewControllerWithIdentifier:@"SetGoodsViewController"];
+    [self.navigationController pushViewController:svc animated:YES];
 }
 
 /*

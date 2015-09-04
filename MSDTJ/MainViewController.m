@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-#import "CollectionCell.h"
+#import "MainCollectionViewCell.h"
 #define DeviceWidth ([UIScreen mainScreen].bounds.size.width) //設備寬
 #define DeviceHeight ([UIScreen mainScreen].bounds.size.height) //設備高
 
@@ -20,8 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.collectionView registerClass:[CollectionCell class] forCellWithReuseIdentifier:@"goodsCollectionCell"];
-
+    [self.collectionView registerClass:[MainCollectionViewCell class] forCellWithReuseIdentifier:@"goodsCollectionCell"];
+    self.collectionView.backgroundColor = [UIColor whiteColor];
 }
 
 #pragma mark - CollectionView data source
@@ -32,7 +32,7 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    CollectionCell *cell = (CollectionCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"goodsCollectionCell" forIndexPath:indexPath];
+    MainCollectionViewCell *cell = (MainCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"goodsCollectionCell" forIndexPath:indexPath];
     return cell;
 }
 
@@ -52,7 +52,7 @@
 
 //间距
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
-    UIEdgeInsets top = {0,DeviceWidth/36.0,0,DeviceWidth/36.0};
+    UIEdgeInsets top = {-64,DeviceWidth/36.0,-49,DeviceWidth/36.0};
     return top;
 }
 @end

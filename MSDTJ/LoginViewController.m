@@ -36,11 +36,11 @@
 -(void)carouselImage:(NSTimer *)timer{
     int i = (int)self.carouselbool;
     if (i%3 == 0) {
-        self.loginImageView.image = [UIImage imageNamed:@"loginimage1.jpg"];
+        self.loginImageView.image = [UIImage imageNamed:@"loginimage1"];
     }else if (i%3 == 1){
-        self.loginImageView.image = [UIImage imageNamed:@"loginimage2.jpg"];
+        self.loginImageView.image = [UIImage imageNamed:@"loginimage2"];
     }else{
-        self.loginImageView.image = [UIImage imageNamed:@"loginimage3.jpg"];
+        self.loginImageView.image = [UIImage imageNamed:@"loginimage3"];
     }
     
     self.carouselbool++;

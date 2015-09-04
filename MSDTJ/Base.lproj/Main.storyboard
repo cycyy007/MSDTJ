@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Hot-PD-fDQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Hot-PD-fDQ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--My View Controller-->
@@ -20,7 +19,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="店名：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9l-bR-NoB">
                                 <rect key="frame" x="16" y="87" width="68" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l9o-zs-Ect">
@@ -42,7 +41,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="地址：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re3-4M-zlS">
                                 <rect key="frame" x="16" y="220" width="68" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FgY-fe-nlV">
@@ -57,7 +56,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="电话：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMp-wx-okW">
                                 <rect key="frame" x="16" y="289" width="68" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g0D-2f-wM2">
@@ -83,7 +82,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="主打：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ik-cX-wZQ">
                                 <rect key="frame" x="16" y="152" width="68" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -100,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eme-c1-eq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044" y="684"/>
+            <point key="canvasLocation" x="1044" y="727"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="Nd3-rW-kYj">
@@ -123,7 +122,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="目前是试用版本" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cop-RH-hRm">
                                 <rect key="frame" x="63" y="95" width="195" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9A4-KB-dF0">
@@ -174,7 +173,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QJt-iU-lSQ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="l3u-nv-F3m">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -200,10 +199,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="leading" secondItem="ATk-cG-9lb" secondAttribute="leadingMargin" constant="-16" id="25k-aW-4ho"/>
-                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="bottom" secondItem="ATk-cG-9lb" secondAttribute="bottomMargin" id="aga-cb-OK8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="QJt-iU-lSQ" secondAttribute="trailing" constant="-16" id="d43-C2-UMi"/>
-                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="top" secondItem="ATk-cG-9lb" secondAttribute="topMargin" id="ox5-52-dII"/>
+                            <constraint firstAttribute="trailing" secondItem="QJt-iU-lSQ" secondAttribute="trailing" id="FJp-9U-ohx"/>
+                            <constraint firstItem="ixE-TB-Al2" firstAttribute="top" secondItem="QJt-iU-lSQ" secondAttribute="bottom" id="VBE-6y-UBf"/>
+                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="top" secondItem="zDM-qr-1Sr" secondAttribute="bottom" id="hUh-p2-ULq"/>
+                            <constraint firstItem="QJt-iU-lSQ" firstAttribute="leading" secondItem="ATk-cG-9lb" secondAttribute="leading" id="olr-gS-NLb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="u8P-vm-Yih"/>
@@ -265,13 +264,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-head.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-38-Ukc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-head" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-38-Ukc">
                                 <rect key="frame" x="0.0" y="20" width="320" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="OvH-5N-GXj"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logintextfield.png" translatesAutoresizingMaskIntoConstraints="NO" id="H10-nu-qcT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logintextfield" translatesAutoresizingMaskIntoConstraints="NO" id="H10-nu-qcT">
                                 <rect key="frame" x="27" y="83" width="267" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="IcV-0M-v0U"/>
@@ -294,7 +293,7 @@
                                     <constraint firstAttribute="width" constant="20" id="ItQ-nv-8qr"/>
                                     <constraint firstAttribute="height" constant="20" id="eb2-rk-UgB"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="deletebutton.png">
+                                <state key="normal" backgroundImage="deletebutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -307,7 +306,7 @@
                                     <constraint firstAttribute="height" constant="20" id="Imk-3h-Jri"/>
                                     <constraint firstAttribute="width" constant="20" id="vmB-SX-9Po"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="deletebutton.png">
+                                <state key="normal" backgroundImage="deletebutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -319,7 +318,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gJx-cZ-uBQ"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="loginbutton.png">
+                                <state key="normal" backgroundImage="loginbutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -332,7 +331,7 @@
                                     <constraint firstAttribute="width" constant="91" id="Pzp-6U-tUt"/>
                                     <constraint firstAttribute="height" constant="30" id="SQ5-b5-4ju"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="registerpustbutton.png">
+                                <state key="normal" backgroundImage="registerpustbutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -345,7 +344,7 @@
                                     <constraint firstAttribute="width" constant="71" id="9vJ-sq-si5"/>
                                     <constraint firstAttribute="height" constant="17" id="C9g-rT-tK3"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="forgetpassword.png">
+                                <state key="normal" backgroundImage="forgetpassword">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -374,7 +373,7 @@
                                 <color key="textColor" white="0.29143537549999998" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginimage1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wTW-3b-DNw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginimage1" translatesAutoresizingMaskIntoConstraints="NO" id="wTW-3b-DNw">
                                 <rect key="frame" x="0.0" y="408" width="320" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="EFb-rS-x1s"/>
@@ -451,13 +450,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="register-head.png" translatesAutoresizingMaskIntoConstraints="NO" id="HbU-R8-XEg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="register-head" translatesAutoresizingMaskIntoConstraints="NO" id="HbU-R8-XEg">
                                 <rect key="frame" x="0.0" y="20" width="320" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="U9U-zN-DGE"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registertextfield.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tf8-Sa-dhY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="registertextfield" translatesAutoresizingMaskIntoConstraints="NO" id="Tf8-Sa-dhY">
                                 <rect key="frame" x="27" y="83" width="267" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="KnD-nQ-lH4"/>
@@ -502,7 +501,7 @@
                                     <constraint firstAttribute="height" constant="20" id="3Mw-yd-YIT"/>
                                     <constraint firstAttribute="width" constant="20" id="zqI-M8-Qjb"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="deletebutton.png">
+                                <state key="normal" backgroundImage="deletebutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -515,7 +514,7 @@
                                     <constraint firstAttribute="height" constant="20" id="Z9H-Ky-eyv"/>
                                     <constraint firstAttribute="width" constant="20" id="bfe-iM-XGK"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="deletebutton.png">
+                                <state key="normal" backgroundImage="deletebutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -541,7 +540,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="DZd-Aj-8ua"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="registerbutton.png">
+                                <state key="normal" backgroundImage="registerbutton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -561,12 +560,6 @@
                                     <action selector="back:" destination="NQc-A8-T81" eventType="touchUpInside" id="Oje-Gf-wrO"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginimage1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Fc-h3-Sjz">
-                                <rect key="frame" x="0.0" y="408" width="320" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="vDB-ce-060"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服电话：400-666-0309" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnh-5u-kKe">
                                 <rect key="frame" x="63" y="381" width="194" height="21"/>
                                 <constraints>
@@ -576,6 +569,12 @@
                                 <color key="textColor" white="0.29143537549999998" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginimage1" translatesAutoresizingMaskIntoConstraints="NO" id="5Fc-h3-Sjz">
+                                <rect key="frame" x="0.0" y="408" width="320" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="vDB-ce-060"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.97846675230000002" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -666,16 +665,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="deletebutton.png" width="37" height="39"/>
-        <image name="forgetpassword.png" width="151" height="32"/>
-        <image name="login-head.png" width="720" height="96"/>
-        <image name="loginbutton.png" width="567" height="104"/>
-        <image name="loginimage1.jpg" width="720" height="400"/>
-        <image name="logintextfield.png" width="563" height="200"/>
-        <image name="register-head.png" width="720" height="96"/>
-        <image name="registerbutton.png" width="567" height="104"/>
-        <image name="registerpustbutton.png" width="225" height="70"/>
-        <image name="registertextfield.png" width="565" height="300"/>
+        <image name="deletebutton" width="37" height="39"/>
+        <image name="forgetpassword" width="151" height="32"/>
+        <image name="login-head" width="720" height="96"/>
+        <image name="loginbutton" width="567" height="104"/>
+        <image name="loginimage1" width="720" height="400"/>
+        <image name="logintextfield" width="563" height="200"/>
+        <image name="register-head" width="720" height="96"/>
+        <image name="registerbutton" width="567" height="104"/>
+        <image name="registerpustbutton" width="225" height="70"/>
+        <image name="registertextfield" width="565" height="300"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

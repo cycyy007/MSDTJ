@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "MainCollectionViewCell.h"
+#import "DetailViewController.h"
 #define DeviceWidth ([UIScreen mainScreen].bounds.size.width) //設備寬
 #define DeviceHeight ([UIScreen mainScreen].bounds.size.height) //設備高
 
@@ -37,7 +38,8 @@
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"Choose Cell");
+    DetailViewController *dvc = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 
 //定义每个UICollectionViewCell 的大小
@@ -52,7 +54,7 @@
 
 //间距
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
-    UIEdgeInsets top = {-64,DeviceWidth/36.0,-49,DeviceWidth/36.0};
+    UIEdgeInsets top = {0,DeviceWidth/36.0,-49,DeviceWidth/36.0};
     return top;
 }
 @end

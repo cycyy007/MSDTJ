@@ -38,7 +38,7 @@
                         </variation>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12323" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utL-cy-s8G">
-                        <rect key="frame" x="5" y="261" width="205" height="40"/>
+                        <rect key="frame" x="5" y="264" width="205" height="40"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="UOj-s4-hEZ"/>
                             <constraint firstAttribute="width" constant="200" id="lfH-cc-Phj"/>
@@ -61,7 +61,7 @@
                 <constraint firstAttribute="trailing" secondItem="nDy-Qv-AMV" secondAttribute="trailing" constant="5" id="Esa-FK-dqb"/>
                 <constraint firstItem="nDy-Qv-AMV" firstAttribute="top" secondItem="DBB-7B-LSk" secondAttribute="bottom" constant="1" id="GdQ-PB-FNK"/>
                 <constraint firstItem="DBB-7B-LSk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PpM-Gd-h8i"/>
-                <constraint firstAttribute="bottom" secondItem="utL-cy-s8G" secondAttribute="bottom" constant="8" id="R24-Ub-gUf"/>
+                <constraint firstAttribute="bottom" secondItem="utL-cy-s8G" secondAttribute="bottom" constant="5" id="R24-Ub-gUf"/>
                 <constraint firstItem="nDy-Qv-AMV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="VZs-j6-vyh"/>
                 <constraint firstItem="u3Y-o8-sQZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZPI-jW-0W1"/>
                 <constraint firstAttribute="trailing" secondItem="utL-cy-s8G" secondAttribute="trailing" constant="5" id="bL0-aA-6Td"/>
